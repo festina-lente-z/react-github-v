@@ -1,12 +1,18 @@
-import React, { Fragment } from 'react';
-import { Nav } from '../../components';
+import React, { PureComponent } from 'react';
+import { Info } from '../../components';
 
-const Home = () => {
-  return (
-    <Fragment>
-      <Nav/>
-    </Fragment>
-  )
+import { Layout } from 'antd';
+
+const { Content } = Layout;
+
+class Home extends PureComponent {
+  render() {
+    return (
+      <Content>
+        <Info/>
+      </Content>
+    )
+  }
 }
 
 export default Home;

@@ -1,3 +1,5 @@
-import Nav from './nav';
+import SiderCom from './sider';
+import HeaderCom from './header';
+import Info from './info';
 
-export { Nav }; 
+export { SiderCom, HeaderCom, Info }; 
